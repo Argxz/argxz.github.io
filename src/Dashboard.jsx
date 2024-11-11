@@ -1,9 +1,10 @@
 import React from 'react'
+import "./App"
 
-export default function Dashboard() {
-    return (
-        <div>
-            <h1>Dashboard</h1>
-        </div>
-    )
+const Dashboard = () => {
+  return (
+    <div></div>
+  )
 }
+
+export default Dashboard

@@ -1,38 +1,56 @@
 .App {
-  text-align: center;
+  width: 100vw;
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  margin: 0;
+  padding: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Sidebar{
+  height: 100%;
+  width: 250px;
+  background-color:rgb(48, 55, 68) ;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.profile-picture {
+  text-align: center; /* Pusatkan gambar */
+  margin-bottom: 20px; /* Ruang di bawah gambar */
 }
 
-.App-link {
-  color: #61dafb;
+.profile-picture img {
+  margin-top: 30px;
+  width: 200px;
+  border-radius: 10%; /* Membuat gambar berbentuk bulat */
+  object-fit: cover; /* Memastikan gambar tidak terdistorsi */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sidebar-buttons button {
+  background-color: #ffffff; /* Warna latar belakang tombol */
+  color: rgb(0, 0, 0); /* Warna teks tombol */
+  border: none; /* Menghilangkan border default */
+  padding: 10px; /* Padding dalam tombol */
+    width: 80%; /* Mengatur lebar tombol agar 100% dari elemen induk */
+    height: 50px; /* Padding dalam tombol */
+  text-align: center; /* Mengatur teks agar berada di tengah */
+  text-decoration: none; /* Menghilangkan garis bawah pada teks */
+  display: inline-block; /* Memungkinkan pengaturan lebar dan tinggi */
+  font-size: 16px; /* Ukuran font */
+  margin: 5px 0; /* Jarak antar tombol */
+  border-radius: 5px; /* Membuat sudut tombol melengkung */
+  cursor: pointer; /* Menampilkan kursor pointer saat hover */
+  transition: background-color 0.3s; /* Transisi halus saat hover */
+}
+
+.sidebar-buttons button:hover {
+  background-color: #5a5a5a; /* Warna latar belakang saat hover */
+}
+.sidebar-buttons ul {
+  list-style-type: none; /* Menghilangkan bullet points */
+align-items: center;
+}
+
+.sidebar-buttons li{
+  margin-bottom: 10px;
 }
