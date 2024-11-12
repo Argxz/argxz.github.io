@@ -43,14 +43,14 @@ body{
   background-color:rgb(31, 39, 56) ;
 }
 
+.row #title{
+  flex: 70%;
+}
+
 .row #icon{
   flex: 30%;
   display: grid;
   place-items: center;
-}
-
-.row #title{
-  flex: 70%;
 }
 
 .profile-picture {
