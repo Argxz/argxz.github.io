@@ -1,9 +1,11 @@
 import React from 'react'
 
 function Experiences() {
-  return (
-    <div>Experiences</div>
-  )
+    return (
+        <div>
+
+        </div>
+    )
 }
 
 export default Experiences

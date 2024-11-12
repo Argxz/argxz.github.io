@@ -1,9 +1,11 @@
 import React from 'react'
 
 function Profile() {
-  return (
-    <div>Profile</div>
-  )
+    return (
+        <div>
+
+        </div>
+    )
 }
 
 export default Profile
