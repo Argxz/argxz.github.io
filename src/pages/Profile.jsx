@@ -48,7 +48,7 @@ return (
         <h1 className="name">RIYAN ARGA WIJAYA</h1>
         <p className="location">KOTA JAMBI, JAMBI · 36138 · <a href="mailto:riyanargaw@gmail.com">RIYANARGAW@GMAIL.COM</a></p>
         <p className="description">
-        <span class="opening-text">Hi ! </span>, Iam Information Technology student at Dinamika Bangsa University Jambi, Have a strong understanding
+        <span class="opening-text">Hi ! </span>, Iam Informatics Engineering student at Dinamika Bangsa University Jambi, Have a strong understanding
                                     in the field of Computer Networking and Fullstack Development, Adaptive & Highly motivated
                                     learner with organizational experience primarily in the area of human resource development, This
                                     reflects my ability to work independently as well as in a team
