@@ -1,6 +1,9 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Dashboard from './Dashboard';
+import Profile from './pages/Profile';
+import Education from './pages/Education';
+import Experiences from './pages/Experiences';
+import Skills from './pages/Skills';
 import Sidebar from './components/Sidebar'
 
 function App() {
@@ -9,7 +12,10 @@ function App() {
     <Router>
       <Sidebar/>
       <Routes>
-        <Route path="/" element={<Dashboard />} />
+        <Route path="/" element={<Profile />} />
+        <Route path="/Education" element={<Education />} />
+        <Route path="/Experiences" element={<Experiences />} />
+        <Route path="/Skills" element={<Skills />} />
       </Routes>
     </Router>
     </div>
