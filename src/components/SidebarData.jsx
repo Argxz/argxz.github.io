@@ -10,16 +10,19 @@ export const SidebarData =[
         icon : <AccountIcon/>,
         link : "/"
     },
+    
     {
         title : "Education",
         icon : <EducationIcon/>,
         link : "/Education"
     },
+
     {
         title : "Experiences",
         icon : <ExperiencesIcon/>,
         link : "/Experiences"
     },
+
     {
         title : "Skills",
         icon : <SkillsIcon/>,
