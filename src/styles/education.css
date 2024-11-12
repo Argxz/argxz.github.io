@@ -1,0 +1,67 @@
+.educations{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.school{
+    display: flex;
+    justify-content: center;
+}
+
+.school-detail {
+    border: 1px solid #ccc; /* Garis tepi */
+    border-radius: 8px; /* Sudut melengkung */
+    padding: 16px; /* Ruang di dalam */
+    margin: 15px; /* Jarak antar elemen */
+    background-color: #f9f9f9; /* Warna latar belakang */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Bayangan */
+    text-align: center; /* Rata tengah */
+    align-items: center;
+    max-width: 30%;
+    box-sizing: border-box;
+    padding-bottom: 40px;
+}
+
+.school-detail .foto1 {
+    max-width: 50%; /* Gambar responsif */
+    height: auto; /* Tinggi otomatis */
+    border-radius: 8px; /* Sudut melengkung pada gambar */
+    margin-bottom: 17px;
+}
+
+.school-detail .foto2{
+    max-width: 40%; /* Gambar responsif */
+    height: auto; /* Tinggi otomatis */
+    border-radius: 8px; /* Sudut melengkung pada gambar */
+}
+
+
+.school-detail .title {
+    font-size: 1.5em; /* Ukuran font untuk nama sekolah */
+    font-weight: bold; /* Teks tebal */
+    margin: 10px 0; /* Jarak atas dan bawah */
+}
+
+.school-detail .title2 {
+    font-size: 1.2em; /* Ukuran font untuk nama sekolah */
+    font-weight: bold; /* Teks tebal */
+    margin: 10px 0; /* Jarak atas dan bawah */
+}
+
+.school-detail .date {
+    font-size: 1em; /* Ukuran font untuk tanggal */
+    color: #666; /* Warna teks */
+    margin: 2px 0; /* Jarak atas dan bawah */
+    margin-top: -7px;
+    margin-bottom: 20px;
+}
+
+.school-detail .major {
+    font-size: 1em; /* Ukuran font untuk jurusan */
+    font-weight: bold; /* Teks tebal */
+    margin: 10px 0; /* Jarak atas dan bawah */
+    margin-bottom: 20px;
+}
