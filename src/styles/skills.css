@@ -1,0 +1,22 @@
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 15%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.skills .title{
+    margin-top: 30px;
+    margin-bottom: 150px;
+}
+
+.subtitle{
+    margin-bottom: 50px;
+}
+
+.icon ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
