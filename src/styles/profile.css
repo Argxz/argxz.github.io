@@ -11,8 +11,8 @@
 }
 
 a {
-    color: inherit; /* Mengatur warna link agar mengikuti warna teks biasa */
-    text-decoration: none; /* Menghilangkan garis bawah */
+    color: inherit;
+    text-decoration: none;
 }
 
 a:hover{
@@ -64,59 +64,59 @@ a:hover{
 }
 
 .card {
-    border: 1px solid #ccc; /* Border untuk card */
-    border-radius: 8px; /* Sudut melengkung */
-    padding: 10px; /* Padding di dalam card */
-    text-align: center; /* Teks di tengah */
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    padding: 10px; 
+    text-align: center; 
     margin: 0px auto;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1); /* Efek bayangan */
-    transition: box-shadow 0.3s ease; /* Margin otomatis untuk memusatkan card */
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1); 
+    transition: box-shadow 0.3s ease; 
 }
 
 .card:hover {
-    box-shadow: 0 16px 48px rgba(0, 0, 0, 0.2); /* Efek bayangan saat hover */
+    box-shadow: 0 16px 48px rgba(0, 0, 0, 0.2); 
 }
 
 .image-container {
-    display: flex; /* Menggunakan flexbox untuk menempatkan gambar */
-    justify-content: center; /* Memusatkan gambar secara horizontal */
-    gap: 10px; /* Jarak antar gambar */
+    display: flex; 
+    justify-content: center; 
+    gap: 10px; 
 }
 
 .image {
-    width: 200px; /* Lebar gambar */
-    height: auto; /* Tinggi otomatis */
-    cursor: pointer; /* Menunjukkan bahwa gambar dapat diklik */
-    border-radius: 4px; /* Sudut melengkung pada gambar */
+    width: 200px; 
+    height: auto; 
+    cursor: pointer; 
+    border-radius: 4px; 
 }
 
 .image:hover {
-    opacity: 0.8; /* Efek hover untuk gambar */
+    opacity: 0.8; 
 }
 .modal {
-    position: fixed; /* Posisi tetap */
-    top: 0; /* Jarak dari atas */
-    left: 0; /* Jarak dari kiri */
-    width: 100%; /* Lebar penuh */
-    height: 100%; /* Tinggi penuh */
-    background-color: rgba(0, 0, 0, 0.8); /* Latar belakang semi-transparan */
-    display: flex; /* Menggunakan flexbox untuk memusatkan konten */
-    justify-content: center; /* Memusatkan konten secara horizontal */
-    align-items: center; /* Memusatkan konten secara vertikal */
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    background-color: rgba(0, 0, 0, 0.8); 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
 }
 
 .modal-image {
-    max-width: 90%; /* Lebar maksimal gambar modal */
-    max-height: 90%; /* Tinggi maksimal gambar modal */
+    max-width: 90%; 
+    max-height: 90%; 
 }
 
 .close {
-    position: absolute; /* Posisi absolut untuk tombol close */
-    top: 20px; /* Jarak dari atas */
-    right: 30px; /* Jarak dari kanan */
-    color: white; /* Warna teks */
-    font-size: 30px; /* Ukuran font */
-    cursor: pointer; /* Menunjukkan bahwa ini bisa diklik */
+    position: absolute; 
+    top: 20px; 
+    right: 30px; 
+    color: white; 
+    font-size: 30px; 
+    cursor: pointer; 
 }
 
 .image-card{

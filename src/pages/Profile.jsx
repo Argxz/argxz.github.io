@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 import React, { useState } from 'react';
 import '../styles/profile.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
