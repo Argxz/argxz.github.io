@@ -1,6 +1,8 @@
 .App {
   width: 100vw;
   height: 100vh;
+  display: flex;
+  flex-direction: row;
 }
 
 body{
@@ -9,7 +11,7 @@ body{
 }
 
 .Sidebar{
-  height: 100%;
+  height: auto;
   width: 250px;
   background-color:rgb(48, 55, 68) ;
 }
@@ -32,6 +34,7 @@ body{
   align-items: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-bottom: 5px;
+  transition: background-color 0.3s ease;
 }
 
 .SidebarList .row:hover{
