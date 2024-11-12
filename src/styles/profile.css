@@ -10,12 +10,12 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-a {
+.social-icons a {
     color: inherit;
     text-decoration: none;
 }
 
-a:hover{
+.social-icons a:hover{
     color: #0073b1;
     text-decoration: underline;
 }
