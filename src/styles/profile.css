@@ -1,0 +1,125 @@
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    padding: 30px;
+    margin-left: 17%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a {
+    color: inherit; /* Mengatur warna link agar mengikuti warna teks biasa */
+    text-decoration: none; /* Menghilangkan garis bawah */
+}
+
+a:hover{
+    color: #0073b1;
+    text-decoration: underline;
+}
+
+.name {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #333;
+}
+
+.location {
+    font-size: 1em;
+    color: #666;
+    margin-top: -20px;
+}
+
+.description {
+    font-size: 1em;
+    margin-top: 0px;
+    max-width: 600px;
+    color: #555;
+    line-height: 1.5;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.icon {
+    font-size: 2.5em;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.icon:hover {
+    color: #0073b1; 
+}
+
+
+.opening-text{
+    font-size: x-large;
+    color: #2E343B;
+}
+
+.card {
+    border: 1px solid #ccc; /* Border untuk card */
+    border-radius: 8px; /* Sudut melengkung */
+    padding: 10px; /* Padding di dalam card */
+    text-align: center; /* Teks di tengah */
+    margin: 0px auto;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+    transition: box-shadow 0.3s ease; /* Margin otomatis untuk memusatkan card */
+}
+
+.card:hover {
+    box-shadow: 0 16px 48px rgba(0, 0, 0, 0.2); /* Efek bayangan saat hover */
+}
+
+.image-container {
+    display: flex; /* Menggunakan flexbox untuk menempatkan gambar */
+    justify-content: center; /* Memusatkan gambar secara horizontal */
+    gap: 10px; /* Jarak antar gambar */
+}
+
+.image {
+    width: 200px; /* Lebar gambar */
+    height: auto; /* Tinggi otomatis */
+    cursor: pointer; /* Menunjukkan bahwa gambar dapat diklik */
+    border-radius: 4px; /* Sudut melengkung pada gambar */
+}
+
+.image:hover {
+    opacity: 0.8; /* Efek hover untuk gambar */
+}
+.modal {
+    position: fixed; /* Posisi tetap */
+    top: 0; /* Jarak dari atas */
+    left: 0; /* Jarak dari kiri */
+    width: 100%; /* Lebar penuh */
+    height: 100%; /* Tinggi penuh */
+    background-color: rgba(0, 0, 0, 0.8); /* Latar belakang semi-transparan */
+    display: flex; /* Menggunakan flexbox untuk memusatkan konten */
+    justify-content: center; /* Memusatkan konten secara horizontal */
+    align-items: center; /* Memusatkan konten secara vertikal */
+}
+
+.modal-image {
+    max-width: 90%; /* Lebar maksimal gambar modal */
+    max-height: 90%; /* Tinggi maksimal gambar modal */
+}
+
+.close {
+    position: absolute; /* Posisi absolut untuk tombol close */
+    top: 20px; /* Jarak dari atas */
+    right: 30px; /* Jarak dari kanan */
+    color: white; /* Warna teks */
+    font-size: 30px; /* Ukuran font */
+    cursor: pointer; /* Menunjukkan bahwa ini bisa diklik */
+}
+
+.image-card{
+    display: flex;
+    margin-top: 10px;
+}
